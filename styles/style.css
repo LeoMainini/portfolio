@@ -1,0 +1,115 @@
+/* Effects and animation */
+body {
+    background-color: #212529;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar and body wide attributes */
+.body-padding {
+    padding: 15% 5% 15% 5%;
+}
+
+.navbar-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.light-text {
+    color: #CFDAE6 !important;
+}
+
+.title {
+    color: #CFDAE6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #AD9468;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.subtitle-bold {
+    font-weight: bold;
+}
+
+/* Landing and title sections */
+.home {
+    background-color: #212529;
+    height: 95vh;
+}
+
+.home h1 {
+    padding-top: 40vh;
+}
+
+/* Projects section */
+.projects {
+    background-color: #37434F;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #212529;
+    color: #CFDAE6;
+    min-height: 25vh;
+}
+
+.project-btn {
+    background-color: #AD9468;
+    color: #212529;
+    min-width: 40%;
+}
+
+.card-img-top {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+/* Contact me section */
+.contact {
+    min-height: 100vh;
+}
+
+.form-field {
+    max-width: 1200px;
+}
+
+.form-field-s {
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .form-field-s {
+        max-width: 100%;
+    }
+}
+
+/* Footer section */
+footer {
+    background-color: #37434F;
+}
+
+footer a, #footer-text {
+    color: #AD9468;
+    text-decoration: None;
+}
+
+.fab {
+    max-width: 50px !important;
+}
+
+footer :hover {
+    color: #212529;
+    text-decoration: None;
+}
